@@ -39,3 +39,7 @@ task, review apps through `app.json`, and about twenty-five config vars of which
 
 See `app.json`. Secrets: `SECRET_KEY_BASE`, `DATABASE_URL`, `REDIS_URL`, `STRIPE_SECRET_KEY`,
 `SENDGRID_API_KEY`, `TWILIO_AUTH_TOKEN`, `SIDEKIQ_WEB_PASSWORD`.
+
+## Review apps
+
+Every pull request gets its own Heroku review app with a seeded database (see `app.json`).
