@@ -1,0 +1,14 @@
+.git
+.gitignore
+.dockerignore
+Dockerfile
+config/master.key
+config/*.key
+log/*
+tmp/*
+storage/*
+public/assets
+.env
+.env.*
+*.md
+.github
