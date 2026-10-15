@@ -49,7 +49,7 @@ group :development do
 end
 
 # Background jobs, the Heroku way: a worker dyno reading Redis
-gem "sidekiq", "~> 7.3"
+gem "sidekiq", "~> 8.1"
 
 # Realistic seed data
 gem "faker"
