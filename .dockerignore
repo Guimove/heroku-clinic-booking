@@ -1,0 +1,10 @@
+.git
+.github
+log/*
+tmp/*
+storage/*
+node_modules
+.env*
+config/master.key
+Dockerfile
+.dockerignore
