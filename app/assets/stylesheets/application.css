@@ -1,18 +1,18 @@
 :root {
-  --ground: #F4F7F5;
+  --ground: #F3F6FC;
   --surface: #FFFFFF;
-  --ink: #12262A;
-  --ink-2: #4B6266;
-  --ink-3: #7E9195;
-  --line: #D8E2DE;
-  --primary: #0E6B63;
-  --primary-dark: #0A524C;
-  --primary-soft: #E3F1ED;
+  --ink: #0F1E3A;
+  --ink-2: #46587A;
+  --ink-3: #7A89A6;
+  --line: #D6DFEE;
+  --primary: #1D4ED8;
+  --primary-dark: #1E3A8A;
+  --primary-soft: #E3ECFF;
   --ok: #1F7A57;
   --warn-soft: #F8E9DF;
   --warn: #9A4418;
   --radius: 10px;
-  --shadow: 0 1px 2px rgba(18, 38, 42, 0.06), 0 8px 24px rgba(18, 38, 42, 0.06);
+  --shadow: 0 1px 2px rgba(15, 30, 58, 0.06), 0 8px 24px rgba(15, 30, 58, 0.06);
 }
 
 * { box-sizing: border-box; }
@@ -28,7 +28,7 @@ body {
 }
 a { color: var(--primary); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: 2px; }
-:focus-visible { outline: 3px solid rgba(14, 107, 99, 0.45); outline-offset: 2px; border-radius: 4px; }
+:focus-visible { outline: 3px solid rgba(29, 78, 216, 0.45); outline-offset: 2px; border-radius: 4px; }
 h1, h2, h3 { margin: 0; letter-spacing: -0.015em; line-height: 1.15; text-wrap: balance; }
 p { margin: 0; }
 .muted, .meta { color: var(--ink-2); }
@@ -127,9 +127,9 @@ p { margin: 0; }
   display: block; text-align: center; padding: 7px 0; margin: 0 0 6px; border-radius: 6px;
   background: var(--primary-soft); color: var(--primary-dark); font-weight: 700; font-size: 14px; cursor: pointer;
 }
-.day label:hover { background: #D2E8E2; }
+.day label:hover { background: #CCDCFB; }
 .day input:checked + label { background: var(--ink); color: #fff; }
-.day input:focus-visible + label { outline: 3px solid rgba(14, 107, 99, 0.45); outline-offset: 2px; }
+.day input:focus-visible + label { outline: 3px solid rgba(29, 78, 216, 0.45); outline-offset: 2px; }
 .fields { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .field { display: flex; flex-direction: column; gap: 6px; }
 .field span { font-size: 13.5px; font-weight: 700; color: var(--ink-2); }
@@ -137,7 +137,7 @@ p { margin: 0; }
 .fields input {
   font: inherit; font-size: 16px; padding: 11px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink);
 }
-.fields input:focus { border-color: var(--primary); outline: none; box-shadow: 0 0 0 3px rgba(14, 107, 99, 0.18); }
+.fields input:focus { border-color: var(--primary); outline: none; box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.18); }
 .fine { margin: 16px 0 18px; color: var(--ink-2); font-size: 14px; max-width: 60ch; }
 
 /* footer */
